@@ -1,0 +1,83 @@
+.cards  {
+    display: block;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: -22.5em 0 10em 0;
+    color: rgb(255, 254, 240);
+    z-index: 2;
+    position: relative;
+}
+
+.cards .main-header {
+    font-size: 9em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    color: #f8f8f81f;
+    margin-bottom: -.76em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.cards .child-header {
+    font-size: 4em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    color: #f8f8f8;
+    margin-bottom: 1.4em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+
+}
+
+.card-container {
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    
+}
+
+.card{
+    width: 25%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 0 auto;
+    background-color: rgb(255, 246, 233);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    color: white;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+    .card-container{
+        display: block;
+    }
+
+    .card {
+        margin-bottom: 1.3em;
+        width: 70%;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .card-container{
+        display: block;
+    }
+
+    .card {
+        width: 70%;
+        margin-bottom: 1.3em;
+    }
+}

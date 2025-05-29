@@ -1,0 +1,68 @@
+.multirow{
+    background-color: rgba(7, 7, 6, 0.922);
+    padding-top: 1.5em;
+}
+
+.multirow-content{
+    display:block; 
+}
+.multirow-content .main-header {
+    font-size: 10em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    color: #0fbf9622;
+    margin-bottom: -.75em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.062);
+
+}
+
+.multirow-content  .child-header {
+    font-size: 4em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    color: #d2e4e0d1;
+    margin-bottom: 1.4em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+/* General row styling */
+.row {
+    display: flex;
+    width: 100%;
+    height: 550px;
+    margin: 0 auto;}
+
+/* Row content sections */
+.row-cont-left, .row-cont-right {
+    width: 50%;
+    padding: 3em;
+    
+}
+
+/* Row1 specific styles */
+.row1 .row-cont-left {
+    background-color: #ffb700c9;
+}
+
+.row1 .row-cont-right {
+    background-color: #191200df;
+}
+
+/* Consistent styling for additional rows */
+.row2 .row-cont-left {
+    background-color: #191200df; /* Example color */
+}
+
+.row2 .row-cont-right {
+    background-color: #ffb700c9;
+}
+
+.row3 .row-cont-left {
+    background-color: #ffb700c9;
+}
+
+.row3 .row-cont-right {
+    background-color: #191200df;
+}
