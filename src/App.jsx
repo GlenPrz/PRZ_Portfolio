@@ -12,10 +12,10 @@ function App() {
     <>
       <Navbar />
       <Header />
-      {/* <About /> */}
-      <Cards />
+      <About />
+      {/* <Cards /> */}
       <Multirow />
-      <Rockets />
+      {/* <Rockets /> */}
     </>
   );
 }
