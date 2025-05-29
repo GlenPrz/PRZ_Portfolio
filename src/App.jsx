@@ -12,7 +12,7 @@ function App() {
     <>
       <Navbar />
       <Header />
-      <About />
+      {/* <About /> */}
       {/* <Cards /> */}
       <Multirow />
       {/* <Rockets /> */}
