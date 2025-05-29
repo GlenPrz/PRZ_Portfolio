@@ -27,6 +27,7 @@ const Navbar = () => {
           src="src\assets\images\logo.png"
           alt="Logo"
         /> */}
+        
         <img
           className="logo-hero"
           id="logo2"
