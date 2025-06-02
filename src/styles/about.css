@@ -22,7 +22,7 @@
 
 .about .child-header {
   font-size: 4em;
-  margin-bottom: 0.8em;
+  margin-bottom: 1em;
   text-align: center;
   color: #f8f8f8;
   font-family: 'Poppins', sans-serif;
@@ -101,10 +101,10 @@
     left: 0;
     width: 100%;
     height: 100%;
-    border: 3px solid #ffffff;
+    border: 4px solid #08664e;
     border-radius: 32% 58% 69% 43% / 48% 32% 59% 55%;
     transition: 0.5s;
-    animation: animate 6s linear infinite;
+    animation: animate 16s linear infinite;
     
 }
 
@@ -114,10 +114,10 @@
     left: 0;
     width: 100%;
     height: 100%;
-    border: 3px solid #ffffff;
+    border: 4px solid #0da27d;
     border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
     transition: 0.5s;
-    animation: animate 4s linear infinite;
+    animation: animate 10s linear infinite;
 }
 
 
@@ -127,10 +127,10 @@
     left: 0;
     width: 100%;
     height: 100%;
-    border: 2px solid #ffffff;
+    border: 4px solid #05d7a2;
     border-radius: 31% 45% 74% 35% / 38% 56% 51% 87%;
     transition: 0.5s;
-    animation: animate2 12s linear infinite;
+    animation: animate2 21s linear infinite;
 }
 
 
@@ -182,13 +182,13 @@
   width: 280px;
   height: 280px;
   filter: brightness(0) invert(1);
-  transition: filter 0.6s ease-in-out; /* smoother and longer transition */
+  transition: filter 0.6s ease-in-out;
+  animation: float 3s ease-in-out infinite;
 }
 
-.square:hover .logo-hero-about {
-  filter: brightness(1) invert(0); /* explicitly reset */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
 }
 
-.square:not(:hover) .logo-hero-about {
-  filter: brightness(0) invert(1);
-}
