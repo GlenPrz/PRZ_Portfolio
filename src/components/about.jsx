@@ -29,12 +29,13 @@ function about() {
           className="about-content"
           style={{ position: "relative", zIndex: 1 }}
         >
-          <h1 className="main-header">About Me</h1>
+          <h1 className="main-header">About </h1>
           <h1 className="child-header">About Me</h1>
           <div className="divider">
             <div className="dvd-left">
               <div className="square-container">
                 <div class="square linkedin">
+                  <span></span>
                   <span></span>
                   <span></span>
                   <span></span>
