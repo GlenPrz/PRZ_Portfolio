@@ -1,7 +1,16 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "../styles/about.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 function about() {
+  const skillsLeftRef = useRef(null);
+
+  useEffect(() => {
+    AOS.init({});
+  }, []);
+
   return (
     <div>
       <div
@@ -28,19 +37,24 @@ function about() {
         <div
           className="about-content"
           style={{ position: "relative", zIndex: 1 }}
+          ref={skillsLeftRef}
+          data-aos="fade-in"
+          data-aos-offset="200"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="1000"
         >
           <h1 className="main-header">About </h1>
           <h1 className="child-header">About Me</h1>
           <div className="divider">
             <div className="dvd-left">
               <div className="square-container">
-                <div class="square linkedin">
+                <div className="square linkedin">
                   <span></span>
                   <span></span>
                   <span></span>
                   <span></span>
 
-                  <div class="content">
+                  <div className="content">
                     <img
                       className="logo-hero-about"
                       id="logo2"
