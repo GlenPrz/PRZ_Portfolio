@@ -1,7 +1,7 @@
 .about {
     /* background: linear-gradient(353deg,rgba(0, 0, 0, 0.806) 5%, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 1) 71%, rgba(0, 0, 0, 0.705) 100%);    padding: 20px; */
     border-radius: 5px;
-    padding: 8.5em 0 15em;
+    padding: 6em 0 15em;
     color: white;
     margin-top: -1em;
     height: 100vh;
@@ -40,11 +40,10 @@
 .about-content {
     opacity: 0;
     transform: translateY(20px);
-    animation: fadeUp 2s ease-in-out forwards;
     z-index: 3;
   }
   
-  @keyframes fadeUp {
+  /* @keyframes fadeUp {
     from {
       opacity: 0;
       transform: translateY(20px);
@@ -53,7 +52,7 @@
       opacity: 1;
       transform: translateY(0);
     }
-  }
+  } */
 
 .divider {
     width: 100%;
@@ -101,10 +100,12 @@
     left: 0;
     width: 100%;
     height: 100%;
-    border: 4px solid #033327;
+    border: 6px solid #044635;
     border-radius: 41% 44% 56% 59% / 48% 32% 59% 55%;
     transition: 0.5s;
     animation: animate 35s linear infinite;
+    filter: blur(4px); /* Added blur */
+
 }
 
 .square span:nth-child(2) {
@@ -117,7 +118,7 @@
     border-radius: 32% 58% 69% 43% / 48% 32% 59% 55%;
     transition: 0.5s;
     animation: animate 16s linear infinite;
-    
+    filter: blur(3px); /* Added blur */
 }
 
 .square span:nth-child(3) {
@@ -130,6 +131,7 @@
     border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
     transition: 0.5s;
     animation: animate 10s linear infinite;
+    filter: blur(2px); /* Added blur */
 }
 
 .square span:nth-child(4) {
@@ -139,9 +141,10 @@
     width: 100%;
     height: 100%;
     border: 4px solid #0df5bb;
-    border-radius: 31% 45% 74% 35% / 38% 56% 51% 87%;
+    border-radius: 38% 45% 54% 35% / 48% 56% 51% 60%;
     transition: 0.5s;
     animation: animate2 21s linear infinite;
+    filter: blur(1px); /* Added blur */
 }
 
 .content {
@@ -194,6 +197,7 @@
   filter: brightness(0) invert(1);
   transition: filter 0.6s ease-in-out;
   animation: float 3s ease-in-out infinite;
+  
 }
 
 @keyframes float {
