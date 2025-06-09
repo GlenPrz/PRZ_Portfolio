@@ -17,7 +17,7 @@ const HeroSection = () => {
             "Contact me and let's connect!",
           ]}
         />
-        <button type="button" className="btn btn-primary">
+        <button type="button" className="btn btn-prim">
           Contact Me!
         </button>
         <div
