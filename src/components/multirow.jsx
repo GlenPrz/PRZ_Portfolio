@@ -12,50 +12,50 @@ function multirow() {
           <h1 className="main-header">Services</h1>
           <h1 className="child-header">Services</h1>
           <div className="row row1">
-            <div className="row-cont-left">
-              <h1 className="row1-title">website maintenance</h1>
-              <p className="row1-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam, voluptatibus.
+            <div className="row-cont-left black">
+              <h1 className="row1-title"></h1>
+              <p className="row-text"></p>
+            </div>
+            <div className="row-cont-right grey">
+              <h1 className="row1-title">Website Maintenance</h1>
+              <p className="row-text">
+                I offer ongoing website maintenance to ensure your site remains
+                secure, up-to-date, and fully functional. From regular updates
+                and performance checks to fixing bugs and enhancing security, I
+                help keep your website running smoothly so you can focus on your
+                business.
               </p>
             </div>
-            <div className="row-cont-right">
-              <h1 className="row1-title">Row1</h1>
-              <p className="row1-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam, voluptatibus.
-              </p>
-            </div>
-          </div>
+          </div> 
           <div className="row row2">
-            <div className="row-cont-left">
-              <h1 className="row1-title">wordpress</h1>
-              <p className="row1-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam, voluptatibus.
+            <div className="row-cont-left grey">
+              <h1 className="row1-title">Wordpress Development</h1>
+              <p className="row-text">
+                With deep expertise in WordPress, I build custom themes and
+                plugins tailored to your needs. Whether you're looking to create
+                a unique blog, a business site, or an eCommerce platform, I
+                deliver responsive, SEO-friendly, and scalable WordPress
+                solutions.
               </p>
             </div>
-            <div className="row-cont-right">
-              <h1 className="row1-title">Row1</h1>
-              <p className="row1-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam, voluptatibus.
-              </p>
+            <div className="row-cont-right black">
+              <h1 className="row1-title"></h1>
+              <p className="row-text"></p>
             </div>
           </div>
           <div className="row row3">
-            <div className="row-cont-left">
-              <h1 className="row1-title">Website buildings</h1>
-              <p className="row1-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam, voluptatibus.
-              </p>
+            <div className="row-cont-left black">
+              <h1 className="row1-title"></h1>
+              <p className="row-text"></p>
             </div>
-            <div className="row-cont-right">
-              <h1 className="row1-title">Row1</h1>
-              <p className="row1-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam, voluptatibus.
+            <div className="row-cont-right grey">
+              <h1 className="row1-title">Website buildings</h1>
+              <p className="row-text">
+                I design and develop websites from the ground up — starting with
+                strategy and layout, all the way to launch. My focus is on
+                creating modern, user-friendly, and fast-loading websites that
+                align with your goals and make a lasting impression on your
+                visitors.
               </p>
             </div>
           </div>
