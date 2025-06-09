@@ -7,6 +7,7 @@ import Cards from "./components/cards.jsx";
 import Multirow from "./components/multirow.jsx";
 import Rockets from "./components/Rockets.jsx";
 import Skills from "./components/skills.jsx";
+import Footer from "./components/footer.jsx";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       {/* <Cards /> */}
       <Multirow />
       {/* <Rockets /> */}
+      <Footer />
     </>
   );
 }

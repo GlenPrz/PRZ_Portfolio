@@ -32,39 +32,39 @@
 .row {
     display: flex;
     width: 100%;
-    height: 550px;
-    margin: 0 auto;}
+    height: 490px;
+    margin: 0 auto;
+    color: #ffffff;
+    background-color: #090a0b;
+
+}
 
 /* Row content sections */
 .row-cont-left, .row-cont-right {
     width: 50%;
     padding: 3em;
     
+}    
+
+.black {
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(23, 22, 22, 0.788);
+    border-radius: 15px;
+    height: 85%;
+    width: 45%;
+    margin: auto;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
 }
 
-/* Row1 specific styles */
-.row1 .row-cont-left {
-    background-color: #000000c9;
-    color: #ffffff;
+.grey {
+    align-items: center;
+    justify-content: center;
+    padding-top: 8em;
+    height: 100%;
 }
 
-.row1 .row-cont-right {
-    background-color: #0e1012;
-}
-
-/* Consistent styling for additional rows */
-.row2 .row-cont-left {
-    background-color: #0e1012; /* Example color */
-}
-
-.row2 .row-cont-right {
-    background-color: #000000c9;
-}
-
-.row3 .row-cont-left {
-    background-color: #000000c9;
-}
-
-.row3 .row-cont-right {
-    background-color: #0e1012;
+.row-text {
+    font-size: 17px;
+    font-weight: 300;
 }

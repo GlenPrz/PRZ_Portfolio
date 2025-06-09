@@ -5,14 +5,7 @@
 .navbar {
     background: #0d0a02;
 /* Suggested darker-to-lighter smooth gradient with lighter part at the end */
-background: linear-gradient(180deg, 
-  rgba(1, 15, 13, 0.971) 20%,              /* Very dark green-black at start */
-  #010e0cd2 45%,     /* Dark translucent green */
-  #010e0ca7 66%,      /* Slightly lighter dark green */
-  rgba(3, 24, 19, 0.662) 90%,      /* Dark rich green with high opacity */
-  rgba(4, 42, 33, 0.167) 107%     /* Lightest, but still subtle green at end */
-);
-
+background: linear-gradient(180deg,rgba(0, 0, 0, 0.907) 22%, rgba(0, 0, 0, 0.699) 50%, rgba(0, 0, 0, 0.556) 74%, rgba(0, 0, 0, 0.359) 98%);
     overflow: hidden;
     margin-bottom: -6.4%;
     padding: 1em;
@@ -20,7 +13,7 @@ background: linear-gradient(180deg,
     top: 0; /* Sticks to the top */
     z-index: 1000; /* Ensures it stays above other content */
     filter: blur(0px);
-    backdrop-filter: blur(6px);
+    backdrop-filter: blur(5px);
 }
 
 
@@ -53,4 +46,6 @@ color: white;
 .logo-hero{
     width: 50px;
     height: 50px;
+    filter: brightness(0) invert(1);
+    margin-left: 3em;
 }

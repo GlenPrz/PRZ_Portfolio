@@ -1,7 +1,7 @@
 /* Hero Section */
 .hero-section {
     width: 100%;
-    height: 120vh;
+    height: 930px;
 background: linear-gradient(120deg, 
    
     #0da780,   /* blended teal */
@@ -28,7 +28,7 @@ background: linear-gradient(120deg,
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 6em;
+    padding-top: 2em;
     margin-bottom: -4em;
 }
 
@@ -56,15 +56,16 @@ background: linear-gradient(120deg,
 
 .hero-content-right .hero-image-card {
   position: absolute;
-  top: 22%;
-  width: 400px;
-  height: 580px;
+  top: 150px;
+  width: 350px;
+  height: 510px;
   border-radius: 43px;
   overflow: hidden;
   background: linear-gradient(145deg, #021a14, #021f18);
   box-shadow: 0 0 15px rgba(10, 255, 157, 0.295); /* low opacity, soft glow */
   animation: glowPulse 4s ease-in-out infinite alternate;
   transition: transform 0.3s ease;
+  float: left;
 }
 
 @keyframes glowPulse {
