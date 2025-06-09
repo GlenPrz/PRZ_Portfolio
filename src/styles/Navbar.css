@@ -4,7 +4,15 @@
 
 .navbar {
     background: #0d0a02;
-background: linear-gradient(179deg, rgb(13, 10, 2) 2%, rgba(13, 10, 2, 0.897) 21%, rgba(21, 17, 3, 0.838) 49%, rgba(21, 17, 3, 0.6) 100%);
+/* Suggested darker-to-lighter smooth gradient with lighter part at the end */
+background: linear-gradient(180deg, 
+  rgba(1, 15, 13, 0.971) 20%,              /* Very dark green-black at start */
+  #010e0cd2 45%,     /* Dark translucent green */
+  #010e0ca7 66%,      /* Slightly lighter dark green */
+  rgba(3, 24, 19, 0.662) 90%,      /* Dark rich green with high opacity */
+  rgba(4, 42, 33, 0.167) 107%     /* Lightest, but still subtle green at end */
+);
+
     overflow: hidden;
     margin-bottom: -6.4%;
     padding: 1em;
@@ -12,7 +20,7 @@ background: linear-gradient(179deg, rgb(13, 10, 2) 2%, rgba(13, 10, 2, 0.897) 21
     top: 0; /* Sticks to the top */
     z-index: 1000; /* Ensures it stays above other content */
     filter: blur(0px);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(6px);
 }
 
 
