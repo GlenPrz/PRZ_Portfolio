@@ -1,12 +1,28 @@
-import { MDBBtn } from "mdb-react-ui-kit";
+import React, { useRef, useEffect } from "react";
 import TypewriterEffect from "./TypewriterEffect"; // Import the TypewriterEffect component
 import "../styles/header.css"; // Assuming you have a CSS file for styles
 import { FaFacebook, FaLinkedin, FaGithub } from "react-icons/fa";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const HeroSection = () => {
+  const skillsLeftRef = useRef(null);
+
+  useEffect(() => {
+    AOS.init({});
+  }, []);
+
   return (
     <div className="hero-section">
-      <div className="hero-content-left">
+      <div
+        className="hero-content-left"
+        ref={skillsLeftRef}
+        data-aos="fade-right"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="1300"
+        data-aos-delay="200"
+      >
         {/* Integrating the TypewriterEffect component here */}
         <h1 className="hero-title">Hi, I'm Glen</h1>
         <TypewriterEffect
@@ -55,7 +71,15 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="hero-content-right">
-        <div className="hero-image-card">
+        <div
+          className="hero-image-card"
+          ref={skillsLeftRef}
+          data-aos="fade-left"
+          data-aos-offset="200"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="1500"
+          data-aos-delay="200"
+        >
           <img
             src="src\assets\images\Hero_img.jpg"
             alt="Hero"

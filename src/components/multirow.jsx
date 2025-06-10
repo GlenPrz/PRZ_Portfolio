@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "../styles/multirow.css";
 import { useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function multirow() {
   const [val, setVal] = useState({ color: "red" });
+  const skillsLeftRef = useRef(null);
+
+  useEffect(() => {
+    AOS.init({});
+  }, []);
 
   return (
     <div>
@@ -12,11 +19,25 @@ function multirow() {
           <h1 className="main-header">Services</h1>
           <h1 className="child-header">Services</h1>
           <div className="row row1">
-            <div className="row-cont-left black">
+            <div
+              className="row-cont-left black"
+              ref={skillsLeftRef}
+              data-aos="fade-right"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="1000"
+            >
               <h1 className="row1-title"></h1>
               <p className="row-text"></p>
             </div>
-            <div className="row-cont-right grey">
+            <div
+              className="row-cont-right grey"
+              ref={skillsLeftRef}
+              data-aos="fade-right"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="1200"
+            >
               <h1 className="row1-title">Website Maintenance</h1>
               <p className="row-text">
                 I offer ongoing website maintenance to ensure your site remains
@@ -26,9 +47,16 @@ function multirow() {
                 business.
               </p>
             </div>
-          </div> 
+          </div>
           <div className="row row2">
-            <div className="row-cont-left grey">
+            <div
+              className="row-cont-left grey"
+              ref={skillsLeftRef}
+              data-aos="fade-left"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="1200"
+            >
               <h1 className="row1-title">Wordpress Development</h1>
               <p className="row-text">
                 With deep expertise in WordPress, I build custom themes and
@@ -38,17 +66,38 @@ function multirow() {
                 solutions.
               </p>
             </div>
-            <div className="row-cont-right black">
+            <div
+              className="row-cont-right black"
+              ref={skillsLeftRef}
+              data-aos="fade-left"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="1000"
+            >
               <h1 className="row1-title"></h1>
               <p className="row-text"></p>
             </div>
           </div>
-          <div className="row row3">
-            <div className="row-cont-left black">
+          <div className="row row3 ">
+            <div
+              className="row-cont-left black"
+              ref={skillsLeftRef}
+              data-aos="fade-right"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="1000"
+            >
               <h1 className="row1-title"></h1>
               <p className="row-text"></p>
             </div>
-            <div className="row-cont-right grey">
+            <div
+              className="row-cont-right grey"
+              ref={skillsLeftRef}
+              data-aos="fade-right"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="1200"
+            >
               <h1 className="row1-title">Website buildings</h1>
               <p className="row-text">
                 I design and develop websites from the ground up — starting with

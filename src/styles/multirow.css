@@ -1,6 +1,8 @@
 .multirow{
     background-color: #16191d;
     padding-top: 1.5em;
+    width: 100%;
+    overflow: hidden;
 }
 
 .multirow-content{
@@ -32,19 +34,25 @@
 .row {
     display: flex;
     width: 100%;
-    height: 490px;
+    height: 500px;
     margin: 0 auto;
     color: #ffffff;
-    background-color: #090a0b;
-
+    background: #0c0d0e;
+    box-shadow: inset 10px 10px 12px #0a0b0b,
+            inset -10px -10px 12px #0e0f11;
 }
 
 /* Row content sections */
 .row-cont-left, .row-cont-right {
     width: 50%;
-    padding: 3em;
-    
+    padding: 3em;   
 }    
+
+.row3{
+    padding-bottom: 6em;
+    height: 550px;
+
+}
 
 .black {
     align-items: center;
