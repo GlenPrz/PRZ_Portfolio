@@ -14,6 +14,8 @@
     padding: 10em 0;
     /* transform: translateX(-90px); */
     /* animation: slideInLeft 1s ease-out forwards; */
+    box-shadow:  5px -1px 8px 2px #041a14,
+             -5px -5px 10px #06231c;
 }
 
 /* @keyframes slideInLeft {
