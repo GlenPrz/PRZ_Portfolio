@@ -8,6 +8,7 @@ import Multirow from "./components/multirow.jsx";
 import Rockets from "./components/Rockets.jsx";
 import Skills from "./components/skills.jsx";
 import Footer from "./components/footer.jsx";
+import ScrollToTop from "./components/ScrollToTop.jsx";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Multirow />
       {/* <Rockets /> */}
       <Footer />
+      <ScrollToTop />
     </>
   );
 }
