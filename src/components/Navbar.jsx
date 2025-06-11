@@ -27,7 +27,7 @@ const Navbar = () => {
           src="src\assets\images\logo.png"
           alt="Logo"
         /> */}
-        
+
         <img
           className="logo-hero"
           id="logo2"
@@ -49,22 +49,27 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link" href="#home">
+              <a className="nav-link" href="#Home">
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#about">
+              <a className="nav-link" href="#About">
                 About
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#services">
+              <a className="nav-link" href="#Skills">
+                Skills
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#Services">
                 Services
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#contact">
+              <a className="nav-link" href="#Contact">
                 Contact
               </a>
             </li>

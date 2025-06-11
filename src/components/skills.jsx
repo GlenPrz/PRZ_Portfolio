@@ -15,7 +15,7 @@ function Skills() {
   //   TESTING
 
   return (
-    <div>
+    <div id="Skills">
       <div className="skills-cont">
         <div
           className="skills-left"

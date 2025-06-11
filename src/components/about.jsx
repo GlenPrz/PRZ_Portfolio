@@ -12,7 +12,7 @@ function about() {
   }, []);
 
   return (
-    <div>
+    <div id="About">
       <div
         className="about"
         style={{

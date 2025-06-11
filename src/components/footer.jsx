@@ -4,7 +4,7 @@ import { FaFacebook, FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 
 function footer() {
   return (
-    <div className="footer">
+    <div className="footer" id="Contact">
       <div className="footer-content-row1">
         <div className="row1-col col1">
           <h1>Contact</h1>
