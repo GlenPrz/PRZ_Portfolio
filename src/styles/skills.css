@@ -43,6 +43,12 @@
     gap: 3.2em; /* Optional: consistent spacing between items */
 }
 
+.item-container {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap; /* This enables wrapping */
+    gap: 3.2em; /* Optional: consistent spacing between items */
+}
 .skills-item {
     width: 150px;
     height: 150px;

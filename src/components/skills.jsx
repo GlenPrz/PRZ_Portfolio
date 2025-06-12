@@ -29,18 +29,20 @@ function Skills() {
         </div>
         <div className="skills-right">
           {skills.map((skill, index) => (
-            <div
-              key={index}
-              className={`skills-item ${skill.className}`}
-              ref={skillsLeftRef}
-              data-aos="fade-up"
-              data-aos-offset={skill.offset}
-              data-aos-easing="ease-in-sine"
-              data-aos-delay={skill.delay}
-              data-aos-duration={skill.duration}
-            >
-              <img src={skill.img} alt="Skills" />
-              <h1>{skill.title}</h1>
+            <div className="item-container">
+              <div
+                key={index}
+                className={`skills-item ${skill.className}`}
+                ref={skillsLeftRef}
+                data-aos="fade-up"
+                data-aos-offset={skill.offset}
+                data-aos-easing="ease-in-sine"
+                data-aos-delay={skill.delay}
+                data-aos-duration={skill.duration}
+              >
+                <img src={skill.img} alt="Skills" />
+                <h1>{skill.title}</h1>
+              </div>
             </div>
           ))}
         </div>
