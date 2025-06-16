@@ -6,7 +6,6 @@
     background: #0d0a02;
 /* Suggested darker-to-lighter smooth gradient with lighter part at the end */
 background: linear-gradient(180deg,rgba(0, 0, 0, 0.907) 22%, rgba(0, 0, 0, 0.699) 50%, rgba(0, 0, 0, 0.556) 74%, rgba(0, 0, 0, 0.359) 98%);
-    overflow: hidden;
     margin-bottom: -6.4%;
     padding: 1em;
     position: sticky;
@@ -49,3 +48,57 @@ color: white;
     filter: brightness(0) invert(1);
     margin-left: 3em;
 }
+
+/* Default horizontal nav */
+
+
+/* On mobile: becomes sidebar */
+@media (max-width: 900px) {
+    .navbar {
+     margin-bottom: -4.5em;
+    }
+  .nav-menu {
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: -260px;
+    height: 1000px;
+    width: 260px;
+    background: #111;
+    padding: 80px 20px;
+    transition: left 0.3s ease-in-out;
+    z-index: 1050;
+    align-items: center;
+    gap: 1rem;
+    z-index: 1000;
+  }
+
+  .nav-menu.open {
+    left: 0;
+  }
+
+  .nav-menu .nav-link {
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 0;
+  }
+
+  .navbar-nav {
+    margin-left: 0 !important;
+  }
+  .logo-hero{
+    margin-left: 0;
+}
+}
+
+/* Backdrop for sidebar */
+.nav-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.57);
+  z-index: 990;
+}
+
