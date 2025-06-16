@@ -33,9 +33,9 @@ const HeroSection = () => {
             "Contact me and let's connect!",
           ]}
         />
-        <button type="button" className="btn btn-prim">
+        <a href="#Contact" className="btn btn-prim">
           Contact Me!
-        </button>
+        </a>
         <div
           className="icon-container"
           style={{ display: "flex", gap: "16px", marginTop: "20px" }}
