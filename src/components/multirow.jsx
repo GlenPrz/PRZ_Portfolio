@@ -57,13 +57,13 @@ function multirow() {
               data-aos-easing="ease-in-sine"
               data-aos-duration="1200"
             >
-              <h1 className="row1-title">Wordpress Development</h1>
+              <h1 className="row1-title">Front-End Development</h1>
               <p className="row-text">
-                With deep expertise in WordPress, I build custom themes and
-                plugins tailored to your needs. Whether you're looking to create
-                a unique blog, a business site, or an eCommerce platform, I
-                deliver responsive, SEO-friendly, and scalable WordPress
-                solutions.
+                I craft visually engaging and high-performance websites with a strong 
+                emphasis on user experience (UX) and modern design. From concept to launch, 
+                I ensure seamless responsiveness, accessibility, and speed optimization.
+                 My expertise includes HTML, CSS, JavaScript, and frameworks like React, 
+                 Vue, or Next.js, helping bring dynamic and interactive web experiences to life.
               </p>
             </div>
             <div
