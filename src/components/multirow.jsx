@@ -27,8 +27,11 @@ function multirow() {
               data-aos-easing="ease-in-sine"
               data-aos-duration="1000"
             >
-              <h1 className="row1-title"></h1>
-              <p className="row-text"></p>
+              <img
+                src="src\assets\images\projects SS\website maintenance.png"
+                alt="test"
+                className="row1-img"
+              />
             </div>
             <div
               className="row-cont-right grey"
@@ -59,11 +62,13 @@ function multirow() {
             >
               <h1 className="row1-title">Front-End Development</h1>
               <p className="row-text">
-                I craft visually engaging and high-performance websites with a strong 
-                emphasis on user experience (UX) and modern design. From concept to launch, 
-                I ensure seamless responsiveness, accessibility, and speed optimization.
-                 My expertise includes HTML, CSS, JavaScript, and frameworks like React, 
-                 Vue, or Next.js, helping bring dynamic and interactive web experiences to life.
+                I craft visually engaging and high-performance websites with a
+                strong emphasis on user experience (UX) and modern design. From
+                concept to launch, I ensure seamless responsiveness,
+                accessibility, and speed optimization. My expertise includes
+                HTML, CSS, JavaScript, and frameworks like React, Vue, or
+                Next.js, helping bring dynamic and interactive web experiences
+                to life.
               </p>
             </div>
             <div
@@ -74,8 +79,11 @@ function multirow() {
               data-aos-easing="ease-in-sine"
               data-aos-duration="1000"
             >
-              <h1 className="row1-title"></h1>
-              <p className="row-text"></p>
+              <img
+                src="src/assets/images/projects SS/website building.png"
+                alt="test"
+                className="row1-img"
+              />
             </div>
           </div>
           <div className="row row3 ">
@@ -87,8 +95,11 @@ function multirow() {
               data-aos-easing="ease-in-sine"
               data-aos-duration="1000"
             >
-              <h1 className="row1-title"></h1>
-              <p className="row-text"></p>
+              <img
+                src="src/assets/images/projects SS/front end dev.jpg"
+                alt="test"
+                className="row1-img"
+              />
             </div>
             <div
               className="row-cont-right grey"
@@ -98,7 +109,7 @@ function multirow() {
               data-aos-easing="ease-in-sine"
               data-aos-duration="1200"
             >
-              <h1 className="row1-title">Website buildings</h1>
+              <h1 className="row1-title">Website Development</h1>
               <p className="row-text">
                 I design and develop websites from the ground up — starting with
                 strategy and layout, all the way to launch. My focus is on

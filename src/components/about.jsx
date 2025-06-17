@@ -14,10 +14,10 @@ function about() {
   return (
     <div id="About">
       <div
-        className="about"
+        className="about-cont"
         style={{
           position: "relative",
-          backgroundImage: "url(src/assets/images/bg.jpg)",
+          backgroundImage: "url(src/assets/images/pexels-kevin-ku-92347-577585.jpg)",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -46,9 +46,17 @@ function about() {
           <h1 className="main-header">About </h1>
           <h1 className="child-header">About Me</h1>
           <div className="divider">
-            <div className="dvd-left">
+            <div
+              className="dvd-left"
+              ref={skillsLeftRef}
+              data-aos="fade-in"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="1000"
+              data-aos-delay="350"
+            >
               <div className="square-container">
-                <div className="square linkedin">
+                <div className="square">
                   <span></span>
                   <span></span>
                   <span></span>

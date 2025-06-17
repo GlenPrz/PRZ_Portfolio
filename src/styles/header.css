@@ -154,6 +154,8 @@ background: linear-gradient(120deg,
   cursor: pointer;
   transition: background-color 0.3s ease;
   margin-bottom: 10px;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
 }
 
 .btn-prim:hover {
@@ -315,11 +317,11 @@ background: linear-gradient(120deg,
 }
 
 /* Responsive Styles for Mobile */
-@media (max-width: 768px) {
+@media (max-width: 850px) {
   .hero-section {
     flex-direction: column;
     height: auto;
-    padding: 0 1rem;
+    padding: 0;
     margin-bottom: 0;
     overflow: visible !important;
     animation: gradientMove 15s ease infinite;
@@ -337,12 +339,12 @@ background: linear-gradient(120deg,
   }
 
   .hero-content-left {
-    margin-top: 23em;
+    margin-top: 22.5em;
     z-index: 3;
 
   }
   .hero-content-right {
-    margin: -32em 0 10em;
+    margin: -34.5em 0 10em;
     z-index: 2;
   }
 
@@ -357,20 +359,22 @@ background: linear-gradient(120deg,
   }
 
   .btn-prim {
+    max-width: 315px;
     width: 90%;
     padding: 0.75rem 0;
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   .hero-content-right .hero-image-card {
     position: static;
     width: 90vw;
     max-width: 350px;
-    height: 500px;
+    height: 540px;
     margin: 2rem auto 0 auto;
     border-radius: 30px;
     overflow: hidden;
   }
+  
   .hero-content-right .hero-image-card::after {
     content: "";
     position: absolute;
@@ -378,7 +382,7 @@ background: linear-gradient(120deg,
     border-radius: 30px;
     pointer-events: none;
     background: #02211a;
-    background: linear-gradient(2deg, rgba(1, 22, 17, 0.951) 23%, rgba(3, 36, 29, 0.33) 51%, rgba(3, 38, 30, 0.03) 87%);
+    background: linear-gradient(2deg, rgba(1, 22, 17, 0.951) 23%, rgba(3, 36, 29, 0.242) 51%, rgba(3, 38, 30, 0.018) 77%);
     z-index: 2;
   }
 

@@ -9,7 +9,7 @@ import Rockets from "./components/Rockets.jsx";
 import Skills from "./components/skills.jsx";
 import Footer from "./components/footer.jsx";
 import ScrollToTop from "./components/ScrollToTop.jsx";
-
+import Projects from "./components/projects.jsx";
 function App() {
   return (
     <>
@@ -19,6 +19,7 @@ function App() {
       <Skills />
       {/* <Cards /> */}
       <Multirow />
+      <Projects />
       {/* <Rockets /> */}
       <Footer />
       <ScrollToTop />
