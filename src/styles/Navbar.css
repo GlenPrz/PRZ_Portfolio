@@ -53,7 +53,7 @@ color: white;
 
 
 /* On mobile: becomes sidebar */
-@media (max-width: 900px) {
+@media (max-width: 850px) {
     .navbar {
      margin-bottom: -4.5em;
     }
@@ -102,3 +102,20 @@ color: white;
   z-index: 990;
 }
 
+/* Tablet styles */
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .navbar {
+    padding: 0.7em 1.5em;
+  }
+  .nav-item {
+    margin: 0 4px;
+  }
+  .logo-hero {
+    width: 42px;
+    height: 42px;
+    margin-left: 1.5em;
+  }
+  .nav-menu {
+    gap: 0.7rem;
+  }
+}
