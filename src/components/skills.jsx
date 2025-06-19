@@ -15,8 +15,10 @@ function Skills() {
   //   TESTING
 
   return (
-    <div id="Skills">
+    <div>
       <div className="skills-cont">
+        <div className="anchor" id="Skills"></div>
+
         <div
           className="skills-left"
           ref={skillsLeftRef}

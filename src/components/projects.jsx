@@ -5,7 +5,8 @@ import projectData from "../data/project_cards.json";
 function projects() {
   return (
     <div>
-      <div className="projects-container" id="Projects">
+      <div className="projects-container">
+        <div className="anchor" id="Projects"></div>
         <div className="proj-header">
           <h1 className="main-header">Projects</h1>
           <h1 className="child-header">Projects</h1>
