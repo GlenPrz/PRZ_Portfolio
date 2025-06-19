@@ -4,6 +4,7 @@ import "../styles/header.css"; // Assuming you have a CSS file for styles
 import { FaFacebook, FaLinkedin, FaGithub } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import heroImage from "../assets/images/Hero_img.jpg";
 
 const HeroSection = () => {
   const skillsLeftRef = useRef(null);
@@ -80,11 +81,7 @@ const HeroSection = () => {
           data-aos-duration="1500"
           data-aos-delay="200"
         >
-          <img
-            src="src\assets\images\Hero_img.jpg"
-            alt="Hero"
-            className="hero-img"
-          />
+          <img src={heroImage} alt="Hero" className="hero-img" />
         </div>
       </div>
     </div>

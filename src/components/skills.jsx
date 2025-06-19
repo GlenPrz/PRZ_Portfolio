@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import "../styles/skills.css";
-import skills from "../data/skills.json"; // Update if path is different
+import skills from "../data/skills.js";
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();

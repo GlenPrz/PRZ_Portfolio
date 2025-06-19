@@ -4,6 +4,11 @@ import { useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+// Import the images properly from src
+import maintenanceImg from "../assets/images/projects SS/website maintenance.png";
+import buildingImg from "../assets/images/projects SS/website building.png";
+import frontEndImg from "../assets/images/projects SS/front end dev.jpg";
+
 function multirow() {
   const [val, setVal] = useState({ color: "red" });
   const skillsLeftRef = useRef(null);
@@ -28,8 +33,8 @@ function multirow() {
               data-aos-duration="1000"
             >
               <img
-                src="src\assets\images\projects SS\website maintenance.png"
-                alt="test"
+                src={maintenanceImg}
+                alt="Website Maintenance"
                 className="row1-img"
               />
             </div>
@@ -80,8 +85,8 @@ function multirow() {
               data-aos-duration="1000"
             >
               <img
-                src="src/assets/images/projects SS/website building.png"
-                alt="test"
+                src={buildingImg}
+                alt="Website Building"
                 className="row1-img"
               />
             </div>
@@ -96,8 +101,8 @@ function multirow() {
               data-aos-duration="1000"
             >
               <img
-                src="src/assets/images/projects SS/front end dev.jpg"
-                alt="test"
+                src={frontEndImg}
+                alt="Front-End Development"
                 className="row1-img"
               />
             </div>

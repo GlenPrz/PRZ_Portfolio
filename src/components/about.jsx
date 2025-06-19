@@ -2,6 +2,9 @@ import React, { useEffect, useRef } from "react";
 import "../styles/about.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import logo2 from "../assets/images/logo2.png";
+import backgroundImage from "../assets/images/pexels-kevin-ku-92347-577585.jpg";
+
 AOS.init();
 
 function about() {
@@ -17,7 +20,8 @@ function about() {
         className="about-cont"
         style={{
           position: "relative",
-          backgroundImage: "url(src/assets/images/pexels-kevin-ku-92347-577585.jpg)",
+          backgroundImage: `url(${backgroundImage})`,
+
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -66,7 +70,7 @@ function about() {
                     <img
                       className="logo-hero-about"
                       id="logo2"
-                      src="src\assets\images\logo2.png"
+                      src={logo2}
                       alt="Logo"
                     />
                   </div>

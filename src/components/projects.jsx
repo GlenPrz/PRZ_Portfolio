@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/projects.css";
-import projectData from "../data/project_cards.json";
+import projectData from "../data/project_cards.js";
 
 function projects() {
   return (
