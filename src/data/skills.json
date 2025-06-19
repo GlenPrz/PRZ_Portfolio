@@ -5,94 +5,94 @@
     "title": "HTML",
     "delay": 100,
     "duration": 1200,
-    "offset": 300
+    "offset": 100
   },
   {
     "className": "css",
     "img": "src/assets/images/skills/CSS.png",
     "title": "CSS",
-    "delay": 300,
+    "delay": 100,
     "duration": 1200,
-    "offset": 300
+    "offset": 100
   },
   {
     "className": "js",
     "img": "src/assets/images/skills/JS.png",
     "title": "JS",
-    "delay": 600,
-    "duration": 1000,
-    "offset": 300
+    "delay": 100,
+    "duration": 1200,
+    "offset": 100
   },
   {
     "className": "react",
     "img": "src/assets/images/skills/react_js.png",
     "title": "React JS",
-    "delay": 800,
-    "duration": 800,
-    "offset": 300
+    "delay": 100,
+    "duration": 1200,
+    "offset": 100
   },
   {
     "className": "elementor",
     "img": "src/assets/images/skills/elementor.png",
     "title": "Elementor",
-    "delay": 1000,
-    "duration": 600,
-    "offset": 300
+    "delay": 100,
+    "duration": 1200,
+    "offset": 100
   },
   {
     "className": "php",
     "img": "src/assets/images/skills/PHP.png",
     "title": "PHP",
-    "delay": 1200,
-    "duration": 300,
-    "offset": 300
+    "delay": 100,
+    "duration": 1200,
+    "offset": 100
   },
   {
     "className": "mysql",
     "img": "src/assets/images/skills/mysql.png",
     "title": "MySQL",
-    "delay": 0,
-    "duration": 1500,
-    "offset": 200
+    "delay": 100,
+    "duration": 1200,
+    "offset": 100
   },
   {
     "className": "java",
     "img": "src/assets/images/skills/java.png",
     "title": "Java",
-    "delay": 300,
-    "duration": 1300,
-    "offset": 200
+    "delay": 100,
+    "duration": 1200,
+    "offset": 100
   },
   {
     "className": "vb",
     "img": "src/assets/images/skills/vbnet.png",
     "title": "VB.NET",
-    "delay": 600,
-    "duration": 1100,
-    "offset": 200
+    "delay": 100,
+    "duration": 1200,
+    "offset": 100
   },
   {
     "className": "wp",
     "img": "src/assets/images/skills/wordpress.png",
     "title": "WordPress",
-    "delay": 800,
-    "duration": 900,
-    "offset": 200
+    "delay": 100,
+    "duration": 1200,
+    "offset": 100
   },
   {
     "className": "woo",
     "img": "src/assets/images/skills/woocommerce.png",
     "title": "WooCommerce",
-    "delay": 1000,
-    "duration": 700,
-    "offset": 200
+    "delay": 100,
+    "duration": 1200,
+    "offset": 100
   },
   {
     "className": "npm",
     "img": "src/assets/images/skills/npm.png",
     "title": "npm",
-    "delay": 1200,
-    "duration": 400,
-    "offset": 200
+    "delay": 100,
+    "duration": 1200,
+    "offset": 100
   }
 ]
