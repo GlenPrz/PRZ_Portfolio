@@ -2,7 +2,7 @@ import wonderhomeImg from "../assets/images/projects SS/website building.png";
 import ltdImg from "../assets/images/projects SS/LovetoDream.jpg";
 import bullseyeImg from "../assets/images/projects SS/Bullseye.jpg";
 import btsdsImg from "../assets/images/projects SS/btsds.jpg";
-import quizImg from "../assets/images/projects SS/online_quiz.jpg";
+// import quizImg from "../assets/images/projects SS/online_quiz.jpg";
 import timeImg from "../assets/images/projects SS/TimeManagementSystem.jpg";
 
 
@@ -32,12 +32,12 @@ const projectCards = [
     tag: "Web",
     description: "School Project"
   },
-  {
-    title: "Online Quiz",
-    image: quizImg, // ✅ This was causing the error!
-    tag: "Web",
-    description: "School Project"
-  },
+  // {
+  //   title: "Online Quiz",
+  //   image: quizImg, // ✅ This was causing the error!
+  //   tag: "Web",
+  //   description: "School Project"
+  // },
   {
     title: "Time Management System",
     image: timeImg,
