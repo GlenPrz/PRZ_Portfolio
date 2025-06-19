@@ -3,10 +3,11 @@ import ltdImg from "../assets/images/projects SS/LovetoDream.jpg";
 import bullseyeImg from "../assets/images/projects SS/Bullseye.jpg";
 import btsdsImg from "../assets/images/projects SS/btsds.jpg";
 import quizImg from "../assets/images/projects SS/online_quiz.jpg";
-import timeMgmtImg from "../assets/images/projects SS/TimeManagementSystem.jpg";
+import timeImg from "../assets/images/projects SS/TimeManagementSystem.jpg";
 
 
-const projects = [
+
+const projectCards = [
   {
     title: "Wonderhome Naturals",
     image: wonderhomeImg,
@@ -39,22 +40,17 @@ const projects = [
   },
   {
     title: "Time Management System",
-    image: timeMgmtImg,
+    image: timeImg,
     tag: "Web",
     description: "School Project"
-  },
-  {
-    title: "Personal Expenses Tracker",
-    image: bullseyeImg,
-    tag: "Web",
-    description: "Personal Project"
-  },
-  {
-    title: "Personal Expenses Tracker",
-    image: bullseyeImg,
-    tag: "Web",
-    description: "Personal Project"
   }
+  // ,
+  // {
+  //   title: "Personal Expenses Tracker",
+  //   image: bullseyeImg,
+  //   tag: "Web",
+  //   description: "Personal Project"
+  // }
 ];
 
-export default projects;
+export default projectCards;
