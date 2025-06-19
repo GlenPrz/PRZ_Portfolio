@@ -88,9 +88,9 @@
     "offset": 100
   },
   {
-    "className": "npm",
-    "img": "src/assets/images/skills/npm.png",
-    "title": "npm",
+    "className": "figma",
+    "img": "src/assets/images/skills/figma.png",
+    "title": "Figma",
     "delay": 100,
     "duration": 1200,
     "offset": 100

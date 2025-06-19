@@ -1,6 +1,5 @@
-.cards  {
+.cards {
     display: block;
-    flex-wrap: wrap;
     gap: 1rem;
     margin: -22.5em 0 10em 0;
     color: rgb(255, 254, 240);
