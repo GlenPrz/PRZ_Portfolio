@@ -16,9 +16,7 @@ function Skills() {
 
   return (
     <div>
-      <div className="skills-cont">
-        <div className="anchor" id="Skills"></div>
-
+      <div className="skills-cont" id="Skills">
         <div
           className="skills-left"
           ref={skillsLeftRef}

@@ -215,7 +215,7 @@
 /* Mobile Responsive Styles */
 @media (max-width: 768px) {
     .about-cont {
-        padding: 5em 1em 8em;
+        padding: 5em 1em 5em;
         height: auto;
         margin-top: 0;
         height: 67em;
@@ -292,4 +292,78 @@
         z-index: 4;
     }
 }
+/* Tablet Responsive Styles */
+@media (min-width: 800px) and (max-width: 1024px) {
+    .about-cont {
+        padding: 5em 2em 10em;
+        height: 800px;
+        margin: -1em 0;
+        z-index: 1;
+        overflow: hidden;
+    }
 
+    .about-cont .main-header {
+        font-size: 6em;
+    }
+
+    .about-cont .child-header {
+        font-size: 2.5em;
+        margin-bottom: 2em;
+    }
+
+    .about-cont p {
+        font-size: 18px;
+        line-height: 1.7em;
+        margin-bottom: 1.2em;
+        padding: 0 2em;
+    }
+
+    .divider {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .divider .dvd-left,
+    .divider .dvd-right {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .divider .dvd-right {
+        padding-right: 0;
+    }
+
+    .square-container {
+        position: static;
+        margin: 2em auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .square {
+        margin-left: 0;
+        width: 340px;
+        height: 340px;
+        opacity: 0.5;
+    }
+
+    .logo-hero-about {
+        width: 260px;
+        height: 260px;
+        opacity: 0.4;
+    }
+
+    .content {
+        padding: 30px 20px;
+    }
+
+    .divider .dvd-left {
+        display: none;
+    }
+
+    .divider .dvd-right {
+        z-index: 4;
+    }
+}
