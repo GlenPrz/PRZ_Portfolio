@@ -34,7 +34,7 @@ const projectCards = [
   },
   {
     title: "Online Quiz",
-    image: quizImg,
+    image: quizImg, // ✅ This was causing the error!
     tag: "Web",
     description: "School Project"
   },
@@ -44,7 +44,7 @@ const projectCards = [
     tag: "Web",
     description: "School Project"
   }
-  // ,
+    // ,
   // {
   //   title: "Personal Expenses Tracker",
   //   image: bullseyeImg,
