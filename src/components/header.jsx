@@ -5,6 +5,7 @@ import { FaFacebook, FaLinkedin, FaGithub } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import heroImage from "../assets/images/Hero_img.jpg";
+import Resume from "../assets/docs/Resume.pdf"; // Importing the resume file
 
 const HeroSection = () => {
   const skillsLeftRef = useRef(null);
@@ -35,11 +36,11 @@ const HeroSection = () => {
           ]}
         />
         <a
-          href="public\Docs\GLEN PEREZ - Resume.pdf"
+          href={Resume}
           className="btn btn-prim"
           download="GLEN PEREZ - Resume.pdf"
         >
-          Download Resume!
+          Download Resume
         </a>
         <div
           className="icon-container"
