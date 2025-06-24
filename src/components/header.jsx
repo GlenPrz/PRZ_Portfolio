@@ -39,7 +39,7 @@ const HeroSection = () => {
           className="btn btn-prim"
           download="GLEN PEREZ - Resume.pdf"
         >
-          Download Resume
+          Download Resume!
         </a>
         <div
           className="icon-container"
