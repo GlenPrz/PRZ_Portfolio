@@ -33,8 +33,12 @@ const HeroSection = () => {
             "Contact me and let's connect!",
           ]}
         />
-        <a href="#Contact" className="btn btn-prim">
-          Contact Me!
+        <a
+          href="src/assets/Docs/GLEN PEREZ - Resume.pdf"
+          className="btn btn-prim"
+          download="GLEN PEREZ - Resume.pdf"
+        >
+          Download Resume
         </a>
         <div
           className="icon-container"
