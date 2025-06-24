@@ -35,7 +35,7 @@ const HeroSection = () => {
           ]}
         />
         <a
-          href="src/assets/Docs/GLEN PEREZ - Resume.pdf"
+          href="public\Docs\GLEN PEREZ - Resume.pdf"
           className="btn btn-prim"
           download="GLEN PEREZ - Resume.pdf"
         >
