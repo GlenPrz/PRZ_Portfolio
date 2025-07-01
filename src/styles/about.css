@@ -222,6 +222,7 @@
         height: 67em;
         overflow: hidden;
         margin: -1em 0;
+        border-radius: 0;
     }
 
     .about-cont .main-header {
@@ -301,6 +302,7 @@
         margin: -1em 0;
         z-index: 1;
         overflow: hidden;
+        border-radius: 0;
     }
 
     .about-cont .main-header {
