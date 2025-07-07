@@ -2,10 +2,9 @@ import wonderhomeImg from "../assets/images/projects SS/website building.png";
 import ltdImg from "../assets/images/projects SS/LovetoDream.jpg";
 import bullseyeImg from "../assets/images/projects SS/Bullseye.jpg";
 import btsdsImg from "../assets/images/projects SS/btsds.jpg";
-// import quizImg from "../assets/images/projects SS/online_quiz.jpg";
 import timeImg from "../assets/images/projects SS/TimeManagementSystem.jpg";
-
-
+import MAPiImg from "../assets/images/projects SS/MAP_ph.png";
+import OnlineQzImg from "../assets/images/projects SS/OnlineQuiz.png";
 
 const projectCards = [
   {
@@ -27,8 +26,20 @@ const projectCards = [
     description: "Corporate Project"
   },
   {
+    title: "Mamas & Papas PH",
+    image: MAPiImg,
+    tag: "Wordpress",
+    description: "Corporate Project"
+  },
+  {
     title: "BTS Driving School",
     image: btsdsImg,
+    tag: "Web",
+    description: "School Project"
+  },
+  {
+    title: "Online Quiz",
+    image: OnlineQzImg,
     tag: "Web",
     description: "School Project"
   },
