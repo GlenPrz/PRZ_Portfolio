@@ -5,6 +5,8 @@ import btsdsImg from "../assets/images/projects SS/btsds.jpg";
 import timeImg from "../assets/images/projects SS/TimeManagementSystem.jpg";
 import MAPiImg from "../assets/images/projects SS/MAP_ph.png";
 import OnlineQzImg from "../assets/images/projects SS/OnlineQuiz.png";
+import vaccineImg from "../assets/images/projects SS/vaccineImg.jpg";
+
 
 const projectCards = [
   {
@@ -43,16 +45,16 @@ const projectCards = [
     tag: "Web",
     description: "School Project"
   },
-  // {
-  //   title: "Online Quiz",
-  //   image: quizImg, // ✅ This was causing the error!
-  //   tag: "Web",
-  //   description: "School Project"
-  // },
   {
     title: "Time Management System",
     image: timeImg,
     tag: "Web",
+    description: "School Project"
+  },
+  {
+    title: "Vaccination Registration System",
+    image: vaccineImg,
+    tag: "Software",
     description: "School Project"
   }
     // ,
