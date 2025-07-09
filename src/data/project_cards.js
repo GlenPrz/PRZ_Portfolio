@@ -13,31 +13,36 @@ const projectCards = [
     title: "Wonderhome Naturals",
     image: wonderhomeImg,
     tag: "Wordpress",
-    description: "Corporate Project"
+    description: "Corporate Project",
+    link: "https://wonderhomenaturals.com/"
   },
   {
     title: "Love to Dream",
     image: ltdImg,
     tag: "Wordpress",
-    description: "Corporate Project"
+    description: "Corporate Project",
+    link: "https://lovetodream.ph/"
   },
   {
     title: "Bullseye Solutions, Incs.",
     image: bullseyeImg,
     tag: "Wordpress",
-    description: "Corporate Project"
+    description: "Corporate Project",
+    link: "https://bullseyeph.com/"
   },
   {
     title: "Mamas & Papas PH",
     image: MAPiImg,
     tag: "Wordpress",
-    description: "Corporate Project"
+    description: "Corporate Project",
+    link: "https://mamasandpapas.ph/"
   },
   {
     title: "BTS Driving School",
     image: btsdsImg,
     tag: "Web",
-    description: "School Project"
+    description: "School Project",
+    link: "https://btsdrivingschool.website/"
   },
   {
     title: "Online Quiz",

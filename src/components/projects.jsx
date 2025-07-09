@@ -14,16 +14,18 @@ function projects() {
         <div className="proj-content">
           {projectData.map((project, index) => (
             <div className="project-card" key={index}>
-              <div className="card-header">
-                <img src={project.image} alt={project.title} />
-                <div className="card-overlay-title">
-                  <h1>{project.tag}</h1>
+              <a href={project.link} target="_blank">
+                <div className="card-header">
+                  <img src={project.image} alt={project.title} />
+                  <div className="card-overlay-title">
+                    <h1>{project.tag}</h1>
+                  </div>
                 </div>
-              </div>
-              <div className="proj-card-details">
-                <h2 className="project-title">{project.title}</h2>
-                <p className="project-description">{project.description}</p>
-              </div>
+                <div className="proj-card-details">
+                  <h2 className="project-title">{project.title}</h2>
+                  <p className="project-description">{project.description}</p>
+                </div>
+              </a>
             </div>
           ))}
         </div>
