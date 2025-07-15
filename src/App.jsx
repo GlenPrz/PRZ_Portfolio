@@ -10,9 +10,12 @@ import Skills from "./components/skills.jsx";
 import Footer from "./components/footer.jsx";
 import ScrollToTop from "./components/ScrollToTop.jsx";
 import Projects from "./components/projects.jsx";
+import { Analytics } from "@vercel/analytics/next";
+
 function App() {
   return (
     <>
+      <Analytics />
       <Navbar />
       <Header />
       <About />
