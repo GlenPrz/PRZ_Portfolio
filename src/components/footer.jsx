@@ -36,7 +36,7 @@ function footer() {
                 </svg>
               </span>
               <div className="contact-details">
-                <div className="contact-title">(+63) 991 609 324</div>
+                <div className="contact-title">(+63) 991 609 3243</div>
                 <div className="contact-label">Phone</div>
               </div>
             </div>
