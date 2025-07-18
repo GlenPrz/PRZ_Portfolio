@@ -6,7 +6,7 @@ import timeImg from "../assets/images/projects SS/TimeManagementSystem.jpg";
 import MAPiImg from "../assets/images/projects SS/MAP_ph.png";
 import OnlineQzImg from "../assets/images/projects SS/OnlineQuiz.png";
 import vaccineImg from "../assets/images/projects SS/vaccineImg.jpg";
-
+import kiddimotoimg from "../assets/images/projects SS/front end dev.jpg";
 
 const projectCards = [
   {
@@ -38,6 +38,12 @@ const projectCards = [
     link: "https://mamasandpapas.ph/"
   },
   {
+    title: "Kiddimoto PH",
+    image: kiddimotoimg,
+    tag: "Wordpress",
+    description: "Corporate Project",
+  },
+  {
     title: "BTS Driving School",
     image: btsdsImg,
     tag: "Web",
@@ -62,6 +68,7 @@ const projectCards = [
     tag: "Software",
     description: "School Project"
   }
+  
     // ,
   // {
   //   title: "Personal Expenses Tracker",
