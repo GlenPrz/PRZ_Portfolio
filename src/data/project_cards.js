@@ -33,14 +33,14 @@ const projectCards = [
   {
     title: "Mamas & Papas PH",
     image: MAPiImg,
-    tag: "Wordpress",
+    tag: "Shopify",
     description: "Corporate Project",
     link: "https://mamasandpapas.ph/"
   },
   {
     title: "Kiddimoto PH",
     image: kiddimotoimg,
-    tag: "Wordpress",
+    tag: "Shopify",
     description: "Corporate Project",
   },
   {
