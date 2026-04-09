@@ -1,3 +1,4 @@
+import Libertarian from "../assets/images/projects SS/Libertarian_Project.png";
 import wonderhomeImg from "../assets/images/projects SS/website building.png";
 import ltdImg from "../assets/images/projects SS/LovetoDream.jpg";
 import bullseyeImg from "../assets/images/projects SS/Bullseye.jpg";
@@ -9,6 +10,13 @@ import vaccineImg from "../assets/images/projects SS/vaccineImg.jpg";
 import kiddimotoimg from "../assets/images/projects SS/front end dev.jpg";
 
 const projectCards = [
+  {
+    title: "Libertarian Party (Australia)",
+    image: Libertarian,
+    tag: "Nationbuilder",
+    description: "Corporate Project",
+    link: "https://www.libertarians.org.au/"
+  },
   {
     title: "Wonderhome Naturals",
     image: wonderhomeImg,
