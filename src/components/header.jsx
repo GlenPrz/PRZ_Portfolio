@@ -5,7 +5,7 @@ import { FaFacebook, FaLinkedin, FaGithub } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import heroImage from "../assets/images/Hero_img.jpg";
-import Resume from "../assets/docs/Resume.pdf"; // Importing the resume file
+import Resume from "../assets/docs/Perez_Resume.pdf"; // Importing the resume file
 
 const HeroSection = () => {
   const skillsLeftRef = useRef(null);
