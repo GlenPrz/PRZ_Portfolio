@@ -55,25 +55,25 @@ const projectCards = [
     title: "BTS Driving School",
     image: btsdsImg,
     tag: "Web",
-    description: "School Project",
+    description: "Freelance Project",
     link: "https://btsdrivingschool.website/"
-  },
-  {
-    title: "Online Quiz",
-    image: OnlineQzImg,
-    tag: "Web",
-    description: "School Project"
-  },
-  {
-    title: "Time Management System",
-    image: timeImg,
-    tag: "Web",
-    description: "School Project"
   },
   {
     title: "Vaccination Registration System",
     image: vaccineImg,
     tag: "Software",
+    description: "Freelance Project"
+  },
+  {
+    title: "Time Management System",
+    image: timeImg,
+    tag: "Web",
+    description: "Competition Project"
+  },
+  {
+    title: "Online Quiz",
+    image: OnlineQzImg,
+    tag: "Web",
     description: "School Project"
   }
   
