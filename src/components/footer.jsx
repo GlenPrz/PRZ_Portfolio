@@ -100,7 +100,7 @@ function footer() {
       </div>
       <div className="footer-content-row2">
         <p className="row2-text">
-          © 2024 Glen William Perez. All rights reserved.
+          © 2026 Glen William Perez. All rights reserved.
         </p>
       </div>
     </div>
